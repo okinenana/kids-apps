@@ -1,0 +1,78 @@
+.Title {
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: linear-gradient(70deg, rgba(40, 80, 40, 0.5), rgba(30, 40, 20, 0.5)), url(./background/1265300.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: crimson;
+    padding: 20px;
+    width: 100px;
+    border-radius: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: absolute;
+    position: relative;
+    bottom: -200px;
+    left: 50px;
+}
+h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.card {
+    width: 250px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(48, 47, 47);
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.card img {
+    width: 150px;
+    height: 150px;
+}
+
+.card p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+body{
+    margin: 0;
+}
+main{
+align-items: center;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
